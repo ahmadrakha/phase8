@@ -47,7 +47,7 @@ img:hover{
 	display: flex;
 	height: calc(100vh/5);
 	width: calc(100vw/17);
-	background:  url('images/a.png');
+	background:  url('images/purpleorange.png');
 }
 .green{
 	display: flex;
