@@ -54,11 +54,11 @@ img:hover{
 	height: calc(100vh/5);
 	width: calc(100vw/17);
 	background-color:  #3355FF;
-	background:  url('images/green.PNG');
+	background:  url("images/green.PNG");
 }
 .a{
 	display: flex;
 	height: 100%;
 	width: 100%;
-	background:  url('images/orange.PNG');
+	background:  url("images/orange.PNG");
 }
