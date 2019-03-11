@@ -41,24 +41,24 @@ img:hover{
 	display: flex;
 	height: 100%;
 	width: calc(25vw/2);
-	background:  url('images/purple4.png');
+	background:  url('images/purple4.PNG');
 }
 .purple{
 	display: flex;
 	height: calc(100vh/5);
 	width: calc(100vw/17);
-	background:  url('images/purpleorange.png');
+	background:  url('images/purpleorange.PNG');
 }
 .green{
 	display: flex;
 	height: calc(100vh/5);
 	width: calc(100vw/17);
 	background-color:  #3355FF;
-	background:  url('images/green.png');
+	background:  url('images/green.PNG');
 }
 .a{
 	display: flex;
 	height: 100%;
 	width: 100%;
-	background:  url('images/orange.png');
+	background:  url('images/orange.PNG');
 }
