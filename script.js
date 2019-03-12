@@ -60,11 +60,10 @@ function anagram1(el){
 	}
 }
 
-function jackpot(el) {
-	if (a.src.match("images/b.PNG") && b.src.match("images/o.PNG") && c.src.match("images/h.PNG") && d.src.match("images/e.PNG") && e.src.match("images/m.PNG") && f.src.match("images/i.PNG") && g.src.match("images/a.PNG") && h.src.match("images/n.PNG") && i.src.match("images/space.PNG") && j.src.match("images/r.PNG") && k.src.match("images/h.PNG")&& l.src.match("images/a.PNG") && m.src.match("images/p.PNG") && n.src.match("images/s.PNG") && o.src.match("images/o.PNG") && p.src.match("images/d.PNG") && q.src.match("images/y.PNG")){
-		console.log("You Win!");
-		a.classList.add("opaque");
-		b.classList.add("opaque");
+function checkSlot() {
+	if (a.src.match("images/b.png") && b.src.match("images/o.png") && c.src.match("images/h.png") && d.src.match("images/e.png") && e.src.match("images/m.png") && f.src.match("images/i.png") && g.src.match("images/a.png") && h.src.match("images/n.png") && i.src.match("images/space.png") && j.src.match("images/r.png") && k.src.match("images/h.png")&& l.src.match("images/a.png") && m.src.match("images/p.png") && n.src.match("images/s.png") && o.src.match("images/o.png") && p.src.match("images/d.png") && q.src.match("images/y.png")){
+		document.getElementById('check1');
+		console.log("Correct");
+		document.location.href = "http://google.com";
 	}else {
 	}
-}
