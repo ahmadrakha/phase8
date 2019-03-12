@@ -67,3 +67,4 @@ function checkSlot() {
 		document.location.href = "http://google.com";
 	}else {
 	}
+}
