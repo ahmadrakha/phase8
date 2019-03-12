@@ -64,7 +64,7 @@ function checkSlot() {
 	if (a.src.match("images/b.png") && b.src.match("images/o.png") && c.src.match("images/h.png") && d.src.match("images/e.png") && e.src.match("images/m.png") && f.src.match("images/i.png") && g.src.match("images/a.png") && h.src.match("images/n.png") && i.src.match("images/space.png") && j.src.match("images/r.png") && k.src.match("images/h.png")&& l.src.match("images/a.png") && m.src.match("images/p.png") && n.src.match("images/s.png") && o.src.match("images/o.png") && p.src.match("images/d.png") && q.src.match("images/y.png")){
 		document.getElementById('check1');
 		console.log("Correct");
-		document.location.href = "http://google.com";
+		document.location.href = "https://trinanumana.github.io/congrats/";
 	}else {
 	}
 }
