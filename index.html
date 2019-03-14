@@ -3,7 +3,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Escape Room</title>
-		<link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon"/><!-- This is a favicon for my website that shows an image on the tab of the page-->
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
@@ -21,10 +21,10 @@
 				
 			</div>
 		</div>
-		<div class="red center-content">
+		<div class="red center-content"><!--I added a center-content class to my divs to make my images align and be centered in the div -->
 			<div class="purple">
 				<img src="images/b.png" id="us1" class="restrict-img-size" >
-			</div>
+			</div> 
 			<div class="purple">
 				<img src="images/o.png" id="us2" class="restrict-img-size">			
 			</div>
@@ -76,10 +76,10 @@
 		</div>
 		<div class="red center-content">
 			<div class="green center-content">	
-				<img src="images/a.png" class="restrict-img-size" id="slot1" onclick="anagram(this)"/>
+				<img src="images/a.png" class="restrict-img-size" id="slot1" onclick="anagram(this)"/><!--I assigned id's to each div so I could use them in my javascript -->
 			</div>
 			<div class="green center-content">	
-				<img src="images/e.png" class="restrict-img-size" id="slot2" onclick="anagram(this)"/>
+				<img src="images/e.png" class="restrict-img-size" id="slot2" onclick="anagram(this)"/><!--I assigned an onclick attribute so that my javascript function could work when I click on this image -->
 			</div>
 			<div class="green center-content">	
 				<img src="images/h.png" class="restrict-img-size" id="slot3" onclick="anagram(this)"/>
@@ -129,7 +129,7 @@
 		</div>
 		<div class="black center-content" class="restrict-img-size"/>	
 			<div class="a center-content" class="restrict-img-size"/>
-				<img src="images/check.png" class="restrict-img-size" id="check1" onclick="checkSlot()"/>	
+				<img src="images/check.png" class="restrict-img-size" id="check1" onclick="checkSlot()"/><!--This line is connected to my js page because the onclick checkSlot is assigned to this image-->	
 			</div>
 		</div>
 		<script src="script.js"></script>
