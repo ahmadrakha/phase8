@@ -3,10 +3,12 @@ body {
 	height: 100vh;
 	display: block;
 }
-img:hover{
-	cursor: pointer;
+ /* This class makes the images opaque when the user hovers over the image and turns the image into a pointer */
+img:hover{              
+	cursor: pointer; 
 	opacity: 0.6;
 }
+ /* this class centers the images in the div */
 .center-content {
 	display: flex;
 	align-items: center;
